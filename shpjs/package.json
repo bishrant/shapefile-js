@@ -1,6 +1,6 @@
 {
   "_from": "github:bishrant/shapefile-js",
-  "_id": "shpjs@3.5.0",
+  "_id": "shpjs@3.5.1",
   "_inBundle": false,
   "_integrity": "",
   "_location": "/shpjs",
@@ -36,7 +36,6 @@
     "jszip": "^2.4.0",
     "lie": "^3.0.1",
     "lru-cache": "^2.7.0",
-    "parsedbf": "^1.0.0",
     "proj4": "^2.1.4"
   },
   "deprecated": false,
@@ -64,5 +63,5 @@
     "min": "browserify . -s shp | minify > ./dist/shp.min.js",
     "test": "mocha ./test/test.js"
   },
-  "version": "3.5.0"
+  "version": "3.5.1"
 }
