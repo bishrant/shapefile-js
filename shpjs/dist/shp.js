@@ -23057,7 +23057,7 @@ if (proj4.default) {
 var unzip = require('./unzip');
 var binaryAjax = require('./binaryajax');
 var parseShp = require('./parseShp');
-var parseDbf = require('./parsedbf/');
+var parseDbf = require('parsedbf');
 var Promise = require('lie');
 var Cache = require('lru-cache');
 var Buffer = require('buffer').Buffer
